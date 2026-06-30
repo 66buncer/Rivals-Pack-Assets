@@ -251,6 +251,19 @@
         "video guide"
       ],
       "answer": "tutorial video: https://www.youtube.com/watch?v=bMiMUJ_kIP8"
+    },
+    {
+      "id": "fps_performance",
+      "keywords": [
+        "fps",
+        "fps drop",
+        "lag",
+        "performance",
+        "frames",
+        "stuttering",
+        "low fps"
+      ],
+      "answer": "NEEDS_HUMAN: fps/performance question"
     }
   ]
 }
