@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "id": "safety_bans",
+      "keywords": ["ban", "banned", "bannable", "safe", "safety", "permaban", "suspend"],
+      "answer": "fleasion is safe, nobody's been banned. it's a local proxy that only swaps textures/sounds, doesn't touch game logic"
+    },
+    {
+      "id": "antivirus",
+      "keywords": ["antivirus", "virus", "trojan", "malware", "windows defender", "kaspersky", "360 security", "flagged"],
+      "answer": "fleasion isn't a virus, that's a false positive. it installs a local CA cert and intercepts https traffic to swap assets — that's exactly the pattern antivirus heuristics flag, but it's safe and open source on github"
+    },
+    {
+      "id": "how_fleasion_works",
+      "keywords": ["how does fleasion work", "how it works", "explain fleasion", "what does fleasion do"],
+      "answer": "fleasion is a local proxy. it installs a CA cert so it can read roblox's https traffic, then redirects roblox's asset requests to your own pc instead of roblox's servers. when roblox asks for a texture/sound, fleasion swaps in the custom one before it loads. it's all local, nothing gets sent anywhere, and it doesn't change game logic — just visuals and sounds. that's why it doesn't ban. fleasion isn't my app btw, i just make the textures it swaps in. assets are on github: 66buncer/Rivals-Pack-Assets"
+    },
+    {
+      "id": "other_games_scope",
+      "keywords": ["other games", "different game", "ruin other games", "break other games", "apply to other games"],
+      "answer": "nah just rivals/overkill — fleasion only swaps the assets in the config you load, other games and roblox itself work completely normally"
+    },
+    {
+      "id": "install_rivals",
+      "keywords": ["install", "how do i get", "how to download", "setup", "get the pack", "download the pack"],
+      "answer": "download fleasion, load the json config (rivals pack from #minecraft-texturepack, overkill from #overkill-texturepack), enable the config, clear cache, join roblox. tutorial: https://www.youtube.com/watch?v=bMiMUJ_kIP8"
+    },
+    {
+      "id": "not_working_fix",
+      "keywords": ["not working", "doesnt work", "isnt working", "broken", "wont load", "missing textures", "issue", "problem", "bug", "error", "help"],
+      "answer": "disable the old config in fleasion, clear cache, then rejoin roblox. if that doesn't fix it, open a ticket in #get-help"
+    },
+    {
+      "id": "error_529",
+      "keywords": ["529", "http error", "join error", "cant join", "wont join", "got a virus", "uninstalled fleasion"],
+      "answer": "that's not a virus, it's leftovers from uninstalling fleasion wrong. fix: 1) open C:\\Windows\\System32\\drivers\\etc\\hosts with notepad as admin, delete lines with roblox/rbxcdn/127.0.0.1, save. 2) Win+R -> certmgr.msc -> Trusted Root Certification Authorities -> Certificates -> delete anything named Fleasion or FleasionNT. 3) Win+R -> inetcpl.cpl -> Connections -> LAN settings -> uncheck use a proxy server. 4) restart pc and try again"
+    },
+    {
+      "id": "mobile_support",
+      "keywords": ["mobile", "phone", "android", "ios", "tablet"],
+      "answer": "nah, fleasion is pc only, mobile isn't possible — it works as a local proxy on your pc, mobile can't run that"
+    },
+    {
+      "id": "mac_support",
+      "keywords": ["mac", "macos", "apple", "m1", "m2"],
+      "answer": "yeah works on mac with fleasion v2.2.1+, pc/mac only though, no mobile"
+    },
+    {
+      "id": "remove_font",
+      "keywords": ["remove font", "no font", "without font", "change font", "minecraft font"],
+      "answer": "download the version without font from #minecraft-texturepack, disable the old config in fleasion, clear cache and rejoin"
+    },
+    {
+      "id": "pack_versions",
+      "keywords": ["how many versions", "what versions", "day night version", "which version"],
+      "answer": "minecraft classic pack (rivals) has 4 versions: day, night, day+font, night+font. overkill pack has 2: day and night"
+    },
+    {
+      "id": "pack_contents_rivals",
+      "keywords": ["whats in the pack", "what does the pack include", "features", "whats included"],
+      "answer": "minecraft classic pack (rivals): grenade->TNT block, knife->diamond sword, crossbow/sniper/fist sounds, minecraft ranks (coal/iron/gold/emerald/diamond/nether star), stone brick arena, mc heart HP, skull killfeed, red arrow damage indicator"
+    },
+    {
+      "id": "overkill_pack_info",
+      "keywords": ["overkill pack", "overkill texture", "is there an overkill"],
+      "answer": "yeah it's out (v1.0), grab it in #overkill-texturepack. day & night versions. has: AR->snowball, AWP->ender dragon hit, body hits->mc hit sound, headshots->orb pickup, fists->swing+hit, slide/jumppad/countdown all minecraft'd, full minecraft skybox, minecraft UI icons"
+    },
+    {
+      "id": "commissions_pricing",
+      "keywords": ["custom pack", "commission", "order a pack", "personal pack", "price", "cost", "how much"],
+      "answer": "yeah i do custom personal packs — open a ticket in #order-here and we'll talk pricing/details. basic/standard/premium tiers depending on how much you want"
+    },
+    {
+      "id": "discord_links",
+      "keywords": ["youtube channel", "tiktok", "your socials", "your channel"],
+      "answer": "youtube: youtube.com/@66buncer, tiktok: tiktok.com/@66mods"
+    }
+  ]
+}
