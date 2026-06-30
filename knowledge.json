@@ -58,7 +58,7 @@
         "get the pack",
         "download the pack"
       ],
-      "answer": "download fleasion, load the json config (rivals pack from #minecraft-texturepack, overkill from #overkill-texturepack), enable the config, clear cache, join roblox. tutorial: https://www.youtube.com/watch?v=bMiMUJ_kIP8"
+      "answer": "download fleasion, load the json config from #minecraft-texturepack: https://discord.com/channels/1518029887934435328/1518394012015394916, enable the config, clear cache, join roblox. tutorial: https://www.youtube.com/watch?v=bMiMUJ_kIP8"
     },
     {
       "id": "not_working_fix",
@@ -75,7 +75,7 @@
         "error",
         "help"
       ],
-      "answer": "disable the old config in fleasion, clear cache, then rejoin roblox. if that doesn't fix it, open a ticket in #get-help"
+      "answer": "disable old config in fleasion, clear cache, rejoin roblox. if still broken open a ticket: https://discord.com/channels/1518029887934435328/1521549379083960490"
     },
     {
       "id": "error_529",
@@ -88,7 +88,7 @@
         "got a virus",
         "uninstalled fleasion"
       ],
-      "answer": "that's not a virus, it's leftovers from uninstalling fleasion wrong. fix: 1) open C:\\Windows\\System32\\drivers\\etc\\hosts with notepad as admin, delete lines with roblox/rbxcdn/127.0.0.1, save. 2) Win+R -> certmgr.msc -> Trusted Root Certification Authorities -> Certificates -> delete anything named Fleasion or FleasionNT. 3) Win+R -> inetcpl.cpl -> Connections -> LAN settings -> uncheck use a proxy server. 4) restart pc and try again"
+      "answer": "that's leftovers from uninstalling fleasion wrong. fix: 1) open C:\\Windows\\System32\\drivers\\etc\\hosts with notepad as admin, delete lines with roblox/rbxcdn/127.0.0.1, save. 2) Win+R -> certmgr.msc -> Trusted Root Certification Authorities -> delete Fleasion/FleasionNT cert. 3) Win+R -> inetcpl.cpl -> Connections -> LAN settings -> uncheck use a proxy server. 4) restart pc. if still broken: https://discord.com/channels/1518029887934435328/1521549379083960490"
     },
     {
       "id": "mobile_support",
@@ -150,7 +150,7 @@
         "overkill texture",
         "is there an overkill"
       ],
-      "answer": "yeah it's out (v1.0), grab it in #overkill-texturepack. day & night versions. has: AR->snowball, AWP->ender dragon hit, body hits->mc hit sound, headshots->orb pickup, fists->swing+hit, slide/jumppad/countdown all minecraft'd, full minecraft skybox, minecraft UI icons"
+      "answer": "yeah it's out (v1.0), grab it in #overkill-texturepack: https://discord.com/channels/1518029887934435328/1521534593390608494. day & night versions. AR->snowball, AWP->ender dragon hit, body hits->mc hit, headshots->orb pickup, minecraft skybox, ui icons"
     },
     {
       "id": "commissions_pricing",
@@ -174,7 +174,7 @@
         "server rules",
         "where are the rules"
       ],
-      "answer": "rules are here: https://discord.com/channels/1518029887934435328/1521163298815348977 — short version: be respectful, no spam, no advertising, no nsfw, no begging, follow discord/roblox tos. full list in #rules"
+      "answer": "rules are here: https://discord.com/channels/1518029887934435328/1521163298815348977 — be respectful, no spam, no advertising, no nsfw, no begging, follow discord/roblox tos"
     },
     {
       "id": "link_minecraft_pack",
@@ -219,7 +219,7 @@
         "new update",
         "latest update"
       ],
-      "answer": "check the changelog: https://discord.com/channels/1518029887934435328/1518394312034095124"
+      "answer": "changelog: https://discord.com/channels/1518029887934435328/1518394312034095124"
     },
     {
       "id": "link_rules",
@@ -239,7 +239,7 @@
         "where are announcements",
         "news channel"
       ],
-      "answer": "announcements: https://discord.com/channels/1518029887934435328/1518029888404324498"
+      "answer": "announcements are here: https://discord.com/channels/1518029887934435328/1518029888404324498"
     },
     {
       "id": "link_tutorial",
