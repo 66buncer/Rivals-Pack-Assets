@@ -56,9 +56,16 @@
         "how to download",
         "setup",
         "get the pack",
-        "download the pack"
+        "download the pack",
+        "how to use",
+        "how do i use",
+        "how to set up",
+        "how do i set up",
+        "how to install",
+        "guide",
+        "tutorial"
       ],
-      "answer": "download fleasion, load the json config from #minecraft-texturepack: https://discord.com/channels/1518029887934435328/1518394012015394916, enable the config, clear cache, join roblox. tutorial: https://www.youtube.com/watch?v=bMiMUJ_kIP8"
+      "answer": "download fleasion, load the json config, enable it, clear cache, join roblox. full tutorial: https://www.youtube.com/watch?v=bMiMUJ_kIP8 — pack is in #minecraft-texturepack: https://discord.com/channels/1518029887934435328/1518394012015394916"
     },
     {
       "id": "not_working_fix",
