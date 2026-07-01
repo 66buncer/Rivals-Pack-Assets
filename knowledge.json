@@ -161,9 +161,32 @@
         "personal pack",
         "price",
         "cost",
-        "how much"
+        "how much",
+        "can you make",
+        "can u make",
+        "make me a pack",
+        "make a pack",
+        "custom texture",
+        "custom sfx pack",
+        "custom sound pack",
+        "order",
+        "buy a pack",
+        "paid pack",
+        "custom rivals pack",
+        "custom overkill pack",
+        "custom for me",
+        "do you take commissions",
+        "do u take commissions",
+        "are commissions open",
+        "how do i order",
+        "how to order",
+        "i want a custom",
+        "i want my own pack",
+        "personal texture pack",
+        "my own pack",
+        "unique pack"
       ],
-      "answer": "yeah i do custom personal packs — open a ticket in #order-here and we'll talk pricing/details. basic/standard/premium tiers depending on how much you want"
+      "answer": "yeah commissions are open! open a ticket in #order-here and tell me what you want — game, theme, ideas, your name/logo. we'll figure out the price together. basic: 550–1,000 R$ | standard: 1,400–2,400 R$ | premium: 2,800–4,200 R$"
     },
     {
       "id": "server_rules",
@@ -264,6 +287,20 @@
         "low fps"
       ],
       "answer": "NEEDS_HUMAN: fps/performance question"
+    },
+    {
+      "id": "custom_sfx_sounds",
+      "keywords": [
+        "custom sfx",
+        "custom sounds",
+        "sound effects",
+        "sfx",
+        "any skin",
+        "skin sfx",
+        "does the pack change sounds",
+        "what sounds does it change"
+      ],
+      "answer": "yeah the pack changes sounds — crossbow, sniper, fists, AR shots, body hits, headshots, slide, jump pad, countdown. check the full list in the changelog: https://discord.com/channels/1518029887934435328/1518394312034095124"
     }
   ]
 }
